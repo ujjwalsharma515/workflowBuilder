@@ -11,23 +11,21 @@ Then in another page they can upload data & select the workflow to trigger the e
 Easy and User friendly UI (Interactions feedback and error messages).
 
 ## Home page
-![home](https://github.com/pritamjoardar/Workflow-Builder-Application/assets/111422356/e684bf81-0f7e-4dd6-b0bc-25963d9ac764)
+![ss1](https://github.com/ujjwalsharma515/workflowBuilder/assets/125456525/2660cc78-f80c-44fc-9893-594e20d56f9c)
 
 Users will visually construct workflows using pre-defined nodes available via a drag-and-drop interface.
 
-![home1](https://github.com/pritamjoardar/Workflow-Builder-Application/assets/111422356/af79e650-e078-4ef2-8962-ccd37d0335f9)
+![ss2](https://github.com/ujjwalsharma515/workflowBuilder/assets/125456525/bd4f77e4-1342-41d9-8e90-ac91b526e6cf)
 
 Then in another page they can upload data & select the workflow to trigger the execution
 
-https://github.com/pritamjoardar/Workflow-Builder-Application/assets/111422356/e466c9d2-ef08-4bed-a021-7ed4315848c0
+https://github.com/ujjwalsharma515/workflowBuilder/assets/125456525/029f1ff6-1c9c-4386-9a5d-9fa38b24f5c1
 
 
-![workflow](https://github.com/pritamjoardar/Workflow-Builder-Application/assets/111422356/27e638ad-7cd9-4612-924a-ef004b0a1c91)
 
-user can save tha data
+![ss3](https://github.com/ujjwalsharma515/workflowBuilder/assets/125456525/350bfc27-3dbb-481c-b867-21445cd4d61f)
 
-![savedata](https://github.com/pritamjoardar/Workflow-Builder-Application/assets/111422356/afd41236-7fbf-4316-a32d-61ab53c6b745)
 
 save data in MongoDB with Nodes and Edges Details with Unique Id
 
-![savemongo](https://github.com/pritamjoardar/Workflow-Builder-Application/assets/111422356/29ddbd42-c5ba-4de4-b261-263b122a7fd0)
+![Screenshot 2024-04-27 114910](https://github.com/ujjwalsharma515/workflowBuilder/assets/125456525/097cd634-a396-4bfa-8a5e-4e8b73a9a376)
