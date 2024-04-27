@@ -43,7 +43,7 @@ const newWorkflow =()=>{
         toast.error("workflow error");
         return;
       }
-      await axios.post(`/workflow`,{nodes,edges},
+      await axios.post(`http://localhost:5000/workflow`,{nodes,edges},
 
         {
           headers: {
@@ -51,7 +51,7 @@ const newWorkflow =()=>{
             'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
             'content-type':'application/json; charset=utf-8'
           }
-            }
+            } 
       )
       .then((res)=>{
         if(res.status===201){
@@ -78,7 +78,7 @@ else if(index==="home"){
       toast.error("workflow empty");
       return;
     }
-    await axios.post(`/workflow`,{nodes:homenodeData,edges:homeedgeData},
+    await axios.post(`http://localhost:5000/workflow`,{nodes:homenodeData,edges:homeedgeData},
       {
         headers: {
           'Access-Control-Allow-Origin' : '*',
@@ -114,7 +114,7 @@ else if(index==="home"){
   */
 useEffect(()=>{
   try {
-    axios.get('/workflowdata',
+    axios.get('http://localhost:5000/workflowdata',
     {
       headers: {
         'Access-Control-Allow-Origin' : '*',
