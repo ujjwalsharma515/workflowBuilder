@@ -78,7 +78,7 @@ else if(index==="home"){
       toast.error("workflow empty");
       return;
     }
-    await axios.post(`/workflow`,{nodes:homenodeData,edges:homeedgeData},
+    await axios.post(`https://workflowbuilder.onrender.com/workflow`,{nodes:homenodeData,edges:homeedgeData},
       {
         headers: {
           'Access-Control-Allow-Origin' : '*',
