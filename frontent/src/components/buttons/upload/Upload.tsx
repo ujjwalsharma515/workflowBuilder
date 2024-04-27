@@ -20,7 +20,7 @@ const UploadButton = () => {
     const formData = new FormData();
     formData.append('file', file);
     try {
-      await axios.post("/upload", formData, {
+      await axios.post("https://workflowbuilder.onrender.com/upload", formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
