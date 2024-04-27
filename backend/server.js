@@ -26,9 +26,6 @@ const Connect =async()=>{
     });
 }     
 Connect();
-app.get('/', (req, res) => {
-    res.send('Welcome');
-})
 
 
 //for lisning the port

@@ -43,7 +43,7 @@ const newWorkflow =()=>{
         toast.error("workflow error");
         return;
       }
-      await axios.post(`http://localhost:5000/workflow`,{nodes,edges},
+      await axios.post(`https://workflowbuilder.onrender.com/workflow`,{nodes,edges},
 
         {
           headers: {
@@ -78,7 +78,7 @@ else if(index==="home"){
       toast.error("workflow empty");
       return;
     }
-    await axios.post(`http://localhost:5000/workflow`,{nodes:homenodeData,edges:homeedgeData},
+    await axios.post(`https://workflowbuilder.onrender.com/workflow`,{nodes:homenodeData,edges:homeedgeData},
       {
         headers: {
           'Access-Control-Allow-Origin' : '*',
@@ -114,7 +114,7 @@ else if(index==="home"){
   */
 useEffect(()=>{
   try {
-    axios.get('http://localhost:5000/workflowdata',
+    axios.get('https://workflowbuilder.onrender.com/workflowdata',
     {
       headers: {
         'Access-Control-Allow-Origin' : '*',
