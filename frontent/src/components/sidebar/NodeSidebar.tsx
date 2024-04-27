@@ -114,7 +114,7 @@ else if(index==="home"){
   */
 useEffect(()=>{
   try {
-    axios.get('/workflowdata',
+    axios.get('https://workflowbuilder.onrender.com/workflowdata',
     {
       headers: {
         'Access-Control-Allow-Origin' : '*',
