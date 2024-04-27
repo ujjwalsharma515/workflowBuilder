@@ -43,7 +43,7 @@ const newWorkflow =()=>{
         toast.error("workflow error");
         return;
       }
-      await axios.post(`/workflow`,{nodes,edges},
+      await axios.post(`https://workflowbuilder.onrender.com/workflow`,{nodes,edges},
 
         {
           headers: {
