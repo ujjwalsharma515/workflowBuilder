@@ -23,6 +23,9 @@ const UploadButton = () => {
       await axios.post("https://workflowbuilder.onrender.com/upload", formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
+          'Access-Control-Allow-Origin' : '*',
+          'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+          // 'content-type':'application/json; charset=utf-8'
         },
       })
       .then((res)=>{
