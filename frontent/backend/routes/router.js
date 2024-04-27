@@ -77,6 +77,6 @@ router.post('/workflow',async(req,res)=>{
       },
     });
   });
-},[59000]);
+},[1000]);
 });
 module.exports = router;
